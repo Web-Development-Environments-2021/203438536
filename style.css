@@ -3,20 +3,23 @@ ul.menu-icon
 	margin: 0;
 }
 
-menu
+#menu
 {
 	float:left;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: rgb(255, 255, 255);
+	height: 100px;
+	background: rgb(106, 82, 150);
+	top:0;
+	width:100%;	
 }
 
 .menu-container
 {
-	background-color: darkgray;
+	background-color: rgb(133, 134, 138);
 	background-position: center;
 	background-attachment: fixed;
+	
 }
 
 a.menu-icon{
@@ -38,3 +41,10 @@ li
 	font-style: italic;
 }
 
+h2
+{
+	font-size:x-large;
+	font-style: oblique;
+	text-align: center;
+
+}
