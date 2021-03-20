@@ -50,4 +50,16 @@ h2
 	border-style: groove;
 }
 
-
+.header img {
+	float: left;
+	width: 75px;
+	height: 75px;
+	background: #555;
+	
+  }
+  
+  .header h1 {
+	position:sticky;
+	top: 18px;
+	left: 10px;
+  }
