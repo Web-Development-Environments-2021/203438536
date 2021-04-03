@@ -8,12 +8,20 @@ ul.menu-icon
 	float:left;
 	position: fixed;
 	width: 100%;
+
+
 	height: 100px;
-	background: rgb(106, 82, 150);
+	background: #453e52fa;
 	top:0;
 	width:100%;	
 }
+.header{
+	margin-top:0cm;
+}
+/* header{
+	top: 0cm;
 
+} */
 .menu-container
 {
 	background-color: rgb(133, 134, 138);
@@ -25,7 +33,7 @@ ul.menu-icon
 a.menu-icon{
 	text-decoration: none;
 	position: inherit;
-	color:rgb(56, 56, 99);
+	color:rgba(209, 209, 226, 0.281);
 	font-weight: 200;
 
 }
@@ -49,6 +57,14 @@ h2
 	text-align: center;
 	border-style: groove;
 }
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/12/59/electronics-1845272__480.jpg");
+	/* background-image: url(https://cdn.pixabay.com/photo/2017/03/18/19/58/turntable-2154823__480.jpg); */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment:fixed;
+
+}
 
 .header img {
 	float: left;
@@ -62,4 +78,103 @@ h2
 	position:sticky;
 	top: 18px;
 	left: 10px;
+  }
+h3{
+	font-size: 18px;
+	color:beige;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  * {box-sizing:border-box}
+
+  /* photo slider container design
+
+  * {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+	position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+	align-items: center;
+	position: relative;
+
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
   }
