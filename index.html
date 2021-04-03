@@ -126,8 +126,7 @@
   <h2>Scan my code</h2>
   <br/>
   <br/>
-  <img id="qr-code" src="QR.jpg" width=30% height=30%>
-  <h3 class="Text">סריקה של קוד שתוביל לאתר האינטרנט שיצרתם . )דרך הגיט IO</h3>
+  <img id="qr-code" src="qr-code.png" width=30% height=30% style>
   <br/>
   </section>
 
@@ -159,8 +158,7 @@
     <h3>E-mail:</h3><br>
     <input type="text" name="mail"><br>
     <h3>Message:</h3><br>
-    <textarea type="text" name="message" rows = 10 cols= 40>
-      <!-- <script src="fgEmojiPicker.js"></script> -->
+    <textarea type="text" name="message" rows = 10 cols= 40 data-emoji-picker=true>
     </textarea> 
       <br>
     <br/>
@@ -190,39 +188,12 @@
       $('#menu').toggle($(this).scrollTop()>1000)
   });​
   </script>
-  <script>
-    var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-  </script>
-  
+  <script src="fgEmojiPicker.js"></script>
+    <script>
+      (() => {
+        new EmojiPicker()
+      })()
+    </script>
   </div>
 </body>
 </html>
