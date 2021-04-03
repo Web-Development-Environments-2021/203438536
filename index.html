@@ -15,21 +15,23 @@
     <!-- <img id="logo" src="logo.jpg" width="40%" height="30%" > -->
   
     <div class="header">
-      <img src="logo2.png" alt="logo"  />
-      <h1 align= "center">  <img src= "logo3.jpg" alt="title">
-      </h1>
+      <img id="logo-side" src="logo2.png" alt="logo"  />
     </div>
-    <div class="menu-container" >
-      <nav>
-        <li><a class="menu-icon" href="#about">About Me</a></li>
-        <li><a class="menu-icon" href="#photos">My Photos</a></li>
-        <li><a class="menu-icon" href="#playlist">My Playlist</a></li>
-        <li><a class="menu-icon" href="#like">Like</a></li>
-        <li><a class="menu-icon" href="#qrcoder">QR code</a></li>
-        <li><a class="menu-icon" href="#spa">Q&A</a></li>
-        <li><a class="menu-icon" href="#contact">Contact Me</a></li>
-      </nav>
+    <div>
+      <h1 id="menu-div" align= "center">  <img id="image-head" src= "logo3.jpg" alt="title" ></h1>
+      <div class="menu-container" >
+        <nav>
+          <li><a class="menu-icon" href="#about">About Me</a></li>
+          <li><a class="menu-icon" href="#photos">My Photos</a></li>
+          <li><a class="menu-icon" href="#playlist">My Playlist</a></li>
+          <li><a class="menu-icon" href="#like">Like</a></li>
+          <li><a class="menu-icon" href="#qrcoder">QR code</a></li>
+          <li><a class="menu-icon" href="#spa">Q&A</a></li>
+          <li><a class="menu-icon" href="#contact">Contact Me</a></li>
+        </nav>
+      </div>
     </div>
+  
   </div>   
         
   <section id="about" class="section">
@@ -41,105 +43,50 @@
   <br/>
   <br/>
   <h2 class="H">About me</h2>
-  <h3 class = "Text">
-    Jimmy Page was born on 9 January 1944. Is an English musician, songwriter and record producer who achieved international success as the guitarist and founder of the rock band Led Zeppelin.
-    Page is widely considered to be one of the greatest and most influential guitarists of all time.
-    Jimmy is my favorite guitarist and the coolest old man i know.
+  <h3 class = "Text" align ="center">
+    My name is Jimmy Page and I'm 77 years old.<br>Music has always been my passion. I have been a guitarist and musician since I was 15.
+    <br>I became famous as a guitarist for Led Zeppelin<br>I always believed in the music we did and that's why it was uncompromising.<br>
   </h3>
   <br/>
   <br/>
-  <br/>
   </section>
 
+  
   <section id="photos" class="section">
-  <!-- Slideshow container -->
   <br/>
+  <h2 class="H"> My photos</h2>
+  <br>
+  <br>
   <br/>
+  <table id="photos-table"> 
+    <tr>
+      <td data-width="200px">
+        <img class="table-items" src="j-photos/Jimmy3.jpg" height="275px">
+      </td>
+      <td>
+        <img class="table-items" src="j-photos/jimmy4.jpg" height="275px" width="400px">
+      </td>
+      <!-- <td>
+        <img class="table-items" src="j-photos/JImmy5.jpg" height="275px">
+      </td> -->
+      <td>
+        <img class="table-items" src="j-photos/Jimmy.jpg" height="275px" width="275px">      
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="table-items" src="j-photos/Jimmy7.jpg" height="275px">
+      </td>
+      <td>
+        <img class="table-items" src="j-photos/Jimmy8.jpg" height="275px">
+      </td>
+      <td>
+        <img class="table-items" src="j-photos/Jimmy9.jpg" height="275px">
+      </td>
+    </tr>
+  </table>
   <br/>
-  <br/>
-
-  <div class="container">
-
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext"></div>1 / 6</div>
-        <img src="j-photos/Jimmy.jpg" style="width:35%" >
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-        <img src="j-photos/Jimmy3.jpg" style="width:35%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-        <img src="j-photos/jimmy4.jpg" style="width:35%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-        <img src="j-photos/JImmy5.jpg" style="width:35%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-        <img src="j-photos/Jimmy7.jpg" style="width:35%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-        <img src="j-photos/Jimmy9.jpg" style="width:35%">
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-        <img src="j-photos/Jimmy9.jpg" style="width:35%">
-    </div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-    <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="Jimmy.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="Jimmy3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="jimmy4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-      </div>
-      <!-- <div class="column">
-        <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-      </div> -->
-    </div>
-  </div>
-  <!-- <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <h2 class="H">My photos</h2>
-  <br/>
-  <br/>
-  <img id="Jimmy1" src="JImmy.jpg" width=20% height="20%">
-  <h3 class="Text">תמונות שונות של המבוגר לאורך השנים עם חברים, משפחה וכו ' . ודאו
-    שהתמונות מוצגות באתר כראוי גם כאשר פותחים אותו במחשבים
-    אחרים.
-  </h3> -->
-  </section>
+</section>
 
   <section id="playlist" class="section">
   <br/>
@@ -149,14 +96,11 @@
   <br/>
   <h2>My playlist</h2>
   <br/>
-  <h3 class="Text">הוסיפו פלייליסט או סרטון של שיר האהוב על המבוגר מהאתר YouTube
-    )על הפלייליסט להיות מוטמ ע באתר(.
-  </h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ItuZ-dmcye4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ItuZ-dmcye4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   <br/>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/BeDylD8dV7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/BeDylD8dV7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
   <br/>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9H8tBbbEMOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/9H8tBbbEMOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   </section>
 
   <section id="like" class="section">
@@ -168,8 +112,7 @@
   <h2>Give me a like</h2>
   <br/>
   <br/>
-  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div><h3 class="Text">הוספת כפתור " לייק " כך שהעמוד שלכם יוכל לצבור לייקים . ניתן גם
-    להוסיף כפתור לסימון "לייק" לכל עמוד אחר שתבחרו בפייסבוק.
+  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
   </h3>
   <br/>
   </section>
