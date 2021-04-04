@@ -8,9 +8,8 @@
 
 <body>
 <div>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="oU2ydaAm"></script>
-
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="l8bquioB"></script>
   <div id="menu" align="center">
     <!-- <img id="logo" src="logo.jpg" width="40%" height="30%" > -->
   
@@ -111,8 +110,7 @@
   <h2>Give me a like</h2>
   <br/>
   <br/>
-  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
-  </h3>
+  <p align="center"><div class="fb-like" data-href="https://www.facebook.com/jimmypage" data-width="200" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>  </h3></p>
   <br/>
   </section>
 
@@ -160,7 +158,7 @@
     <textarea placeholder="Type here.." type="text" name="message" rows = 5 data-emoji-picker=true></textarea> 
     <br>
     <br/>
-    <input type="button" value="Submit" id="btnsubmit" onclick="submitForm()">
+    <input id="buttun" type="submit" value="Send">
     <input id="buttun" type="reset" value="Reset">
   </form>
   <br/>
@@ -180,18 +178,6 @@
   $(document).scroll(function() {
       $('#menu').toggle($(this).scrollTop()>1000)
   });​
-  </script>
-  <script>
-    function submitForm() {
-   // Get the first form with the name
-   // Usually the form name is not repeated
-   // but duplicate names are possible in HTML
-   // Therefore to work around the issue, enforce the correct index
-   var frm = document.getElementsByName('contact-form')[0];
-   frm.submit(); // Submit the form
-   frm.reset();  // Reset all form data
-   return false; // Prevent page refresh
-}
   </script>
   <script src="fgEmojiPicker.js"></script>
     <script>
