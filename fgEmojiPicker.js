@@ -29,7 +29,7 @@ class EmojiPicker {
         }
       };
   
-      emojiInput.style.width = "50%";
+      emojiInput.style.width = "40%";
   
       const emojiContainer = document.createElement("div");
       emojiContainer.style.position = "relative";
@@ -50,9 +50,9 @@ class EmojiPicker {
       );
   
       emojiPicker.style.position = "absolute";
-      emojiPicker.style.right = "2px";
+      emojiPicker.style.right = "100px";
       emojiPicker.style.outline = "none";
-      emojiPicker.style.top = "30px";
+      emojiPicker.style.top = "6px";
       emojiPicker.style.zIndex = "999";
       emojiPicker.style.display = "none";
       emojiPicker.style.width = "264px";
@@ -68,8 +68,8 @@ class EmojiPicker {
   
       const emojiTrigger = document.createElement("a");
       emojiTrigger.style.position = "initial";
-      emojiTrigger.style.top = "2px";
-      emojiTrigger.style.right = "2px";
+      emojiTrigger.style.top = "0px";
+      emojiTrigger.style.right = "20px";
       emojiTrigger.style.textDecoration = "none";
       emojiTrigger.setAttribute("href", "javascript:void(0)");
       emojiTrigger.innerHTML =

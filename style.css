@@ -7,9 +7,8 @@ ul.menu-icon
 {
 	float:left;
 	position: fixed;
+	padding-left: initial;
 	width: 100%;
-
-	margin-left: 0;
 	height: 100px;
 	background: #0c0c0cfa;
 	top:0;
@@ -18,10 +17,7 @@ ul.menu-icon
 .header{
 	margin-top:0cm;
 }
-/* header{
-	top: 0cm;
 
-} */
 .menu-container
 {
 	margin-top: 0;
@@ -63,7 +59,7 @@ h2
 	text-align: center;
 	color: ivory;
 	font-style:initial;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family:;
 
 }
 body{
@@ -72,7 +68,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment:fixed;
-	filter: brightness(100%);
+	
 	
 
 }
@@ -94,6 +90,7 @@ h3{
 	font-size: 16px;
 	color:rgba(255, 255, 248, 0.836);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 1.8;
 }
 
 #image-head{
@@ -119,11 +116,9 @@ h3{
     position:inherit;
     top:-25px;
     left:-35px;
-    width: 400px;
-    height:400px;
+    width: 350px;
+    height:350px;
     display:block;
-	/* display:flexbox; */
-	
     z-index:999;
 }
 #fb-like{
@@ -157,5 +152,37 @@ h3{
 	background-attachment: fixed;
 	background-color: rgb(52, 55, 66);
 }
+input{
+	width: 200px;
+	height: 35px;
+	position: relative;
+}
+input#buttun{
+	width:100px;
+}
+textarea{
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-
+/* sections position */
+#about{
+	padding-top: 20px;
+}
+#photos{
+	padding-top: 110px;
+}
+#playlist{
+	padding-top: 55px;
+}
+#like{
+	padding-top: 55px;
+}
+#qrcoder{
+	padding-top: 20px;
+}
+#spa{
+	padding-top: 110px;
+}
+#contact{
+	padding-top: 0px ;
+}

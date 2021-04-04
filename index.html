@@ -5,11 +5,8 @@
 <title>Aviran's web</title>
 <link rel="shortcut icon" href="head-jimmy.ico" type="image/x-icon" />
 </head>
-
 <body>
 <div>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="l8bquioB"></script>
   <div id="menu" align="center">
     <!-- <img id="logo" src="logo.jpg" width="40%" height="30%" > -->
   
@@ -30,12 +27,9 @@
         </nav>
       </div>
     </div>
-  
   </div>   
-        
+
   <section id="about" class="section">
-
-
   <br/>
   <br/>
   <br/>
@@ -43,54 +37,51 @@
   <br/>
   <h2 class="H">About me</h2>
   <h3 class = "Text" align ="center">
-    My name is Jimmy Page and I'm 77 years old.<br>Music has always been my passion. I have been a guitarist and musician since I was 15.
-    <br>I became famous as a guitarist for Led Zeppelin<br>I always believed in the music we did and that's why it was uncompromising.<br>
-    If you like to know more details about me <a id="link" align="inline" href="https://en.wikipedia.org/wiki/Jimmy_Page" style="color: rgba(255, 255, 248, 0.836);;">CLICK HERE</a> 
+    My name is Jimmy Page and I'm 77 years old.<br>Music has always been my passion. I have been a guitarist and musician since I was teenager.
+    <br>I became famous as a guitarist for Led Zeppelin, "Stairway to heaven" is our famous song.<br>I always believed in the music we did and that's why it was uncompromising.<br>
+    If you like to know more details about me <a id="link" align="inline" href="https://en.wikipedia.org/wiki/Jimmy_Page" style="color: rgba(255, 255, 248, 0.836);;" target="_blank">CLICK HERE</a> 
   </h3>
-  <br/>
-  <br/>
   </section>
 
   
   <section id="photos" class="section">
-  <br/>
   <h2 class="H"> My photos</h2>
   <br>
   <br>
-  <br/>
-  <table id="photos-table"> 
+  <table id="photos-table" align="center" cellpadding="10" width="100%"> 
     <tr>
-      <td data-width="200px">
-        <img class="table-items" src="j-photos/Jimmy3.jpg" height="275px">
+      <td>
+        <img class="table-items" src="j-photos/Jimmy3.jpg" width="245px" height="215px">
       </td>
       <td>
-        <img class="table-items" src="j-photos/jimmy4.jpg" height="275px" width="400px">
+        <img class="table-items" src="j-photos/jimmy4.jpg" width="245px" height="215px">
       </td>
-      <!-- <td>
-        <img class="table-items" src="j-photos/JImmy5.jpg" height="275px">
-      </td> -->
       <td>
-        <img class="table-items" src="j-photos/Jimmy.jpg" height="275px" width="275px">      
+        <img class="table-items" src="j-photos/JImmy5.jpg" width="245px" height="215px">
+      </td>
+      <td>
+        <img class="table-items" src="j-photos/Jimmy.jpg" width="245px" height="215px">      
       </td>
     </tr>
     <tr>
       <td>
-        <img class="table-items" src="j-photos/Jimmy7.jpg" height="275px">
+        <img class="table-items" src="j-photos/Jimmy7.jpg" width="245px" height="215px">
       </td>
       <td>
-        <img class="table-items" src="j-photos/Jimmy8.jpg" height="275px">
+        <img class="table-items" src="j-photos/Jimmy8.jpg" width="245px" height="215px">
       </td>
       <td>
-        <img class="table-items" src="j-photos/Jimmy9.jpg" height="275px">
+        <img class="table-items" src="j-photos/Jimmy9.jpg" width="245px" height="215px">
+      </td>
+      <td>
+        <img class="table-items" src="j-photos/Led1.jpg" width="245px" height="215px">
       </td>
     </tr>
-  </table>
+  </table> 
   <br/>
 </section>
 
   <section id="playlist" class="section">
-  <br/>
-  <br/>
   <br/>
   <br/>
   <br/>
@@ -105,12 +96,11 @@
   <br/>
   <br/>
   <br/>
-  <br/>
-  <br/>
   <h2>Give me a like</h2>
-  <br/>
-  <br/>
-  <p align="center"><div class="fb-like" data-href="https://www.facebook.com/jimmypage" data-width="200" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>  </h3></p>
+  <h3 align="center">I have fan page on facebook. If you like to follow me, please Like and Share!</h3>
+  <br>
+  <br>
+  <p align="center"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjimmypage&width=450&layout=standard&action=like&size=large&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
   <br/>
   </section>
 
@@ -148,19 +138,21 @@
   <br/>
   <h2>Contact me!</h2>
   <br/>
-  <form action="https://formsubmit.co/721bb007e760bbcdd76cf0b692acab8c" method="POST" align="center">
-    <input type="text" name="name" placeholder="Name"><br>
-    <br>
-    <br>
-    <input type="email" name="mail" placeholder="E-mail"><br>
-    <br>
-    <br>
-    <textarea placeholder="Type here.." type="text" name="message" rows = 5 data-emoji-picker=true></textarea> 
-    <br>
-    <br/>
-    <input id="buttun" type="submit" value="Send">
-    <input id="buttun" type="reset" value="Reset">
-  </form>
+  <div>
+    <form id="contact-form" action="https://formsubmit.co/721bb007e760bbcdd76cf0b692acab8c" method="POST" align="center">
+      <input type="text" name="name" placeholder="Name" ><br>
+      <br>
+      <br>
+      <input type="email" name="mail" placeholder="E-mail"><br>
+      <br>
+      <br>
+      <textarea placeholder="Type here.." type="text" name="message" rows = 5 data-emoji-picker=true></textarea> 
+      <br>
+      <br/>
+      <input id="buttun" type="submit" value="Send">
+      <input id="buttun" type="reset" value="Reset">
+    </form>
+  </div>
   <br/>
   <br/>
   </section>
