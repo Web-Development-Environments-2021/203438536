@@ -39,7 +39,11 @@ a.menu-icon{
 }
 
 a.menu-icon:hover{
-	background-color: #656768;}
+	background-color: #656768;
+	font-size: px;
+	
+}
+	
 	
 li
 {
@@ -52,16 +56,36 @@ li
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2
+/* h2
 {
 	font-size:x-large;
 	font-style: oblique;
 	text-align: center;
 	color: ivory;
 	font-style:initial;
-	font-family:;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+} */
+h2{ 
+	text-align: center;
+	color: white; 
+	font: bold 48px Helvetica, Arial, Sans-Serif;
+	text-shadow: 1px 1px #92908f, 
+				 2px 2px #4d4745, 
+				 3px 3px #4d4961;
+ }
+ 
 
-}
+ /* .h2:hover {
+	position: relative; 
+	top: -3px; 
+	left: -3px; 
+	text-shadow: 1px 1px #5a4f61, 
+				 2px 2px #5a504c, 
+				 3px 3px #6344a1, 
+				 4px 4px #92776c, 
+				 5px 5px #423f4d, 
+				 6px 6px #616a83;
+ } */
 body{
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/12/59/electronics-1845272__480.jpg");
 	/* background-image: url(https://cdn.pixabay.com/photo/2017/03/18/19/58/turntable-2154823__480.jpg); */
@@ -184,5 +208,5 @@ textarea{
 	padding-top: 110px;
 }
 #contact{
-	padding-top: 0px ;
+	padding-top:80px ;
 }
