@@ -1,10 +1,15 @@
-# assignment1-aviranGit
-assignment1-aviranGit created by GitHub Classroom
 Name: Aviran Giat
 ID: 203438536
-Info: 
-Jimmy Page is a legendary guitarist and musician of "Led Zeppelin", one of the famous rock band in the 70s.
-I decided to take him as my old man beacuase i realy appriciate the spirit that he have also in his olders days. 
+
+https://web-development-environments-2021.github.io/203438536/
+
+The site is about Jimmy Page- "Led Zeppelin" guitarist and great musician.
+
+There are 7 sections in the menu that you can easily navigate while visiting.
+
+The main files are index.html and style.css
+ 
+I used JavaScript in order to implement the Emoji part in the "content me" section.
 
 
 
