@@ -68,10 +68,11 @@ h2{
 
 body{
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/12/59/electronics-1845272__480.jpg");
-	/* background-image: url(https://cdn.pixabay.com/photo/2017/03/18/19/58/turntable-2154823__480.jpg); */
+	background-color: black; 
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment:fixed;
+
 }
 
 .header img {
@@ -90,7 +91,8 @@ body{
 h3{
 	font-size: 16px;
 	color:rgba(255, 255, 248, 0.836);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
 	line-height: 1.8;
 }
 
